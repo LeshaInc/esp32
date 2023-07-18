@@ -10,8 +10,8 @@
     pkgs = import nixpkgs {system = "x86_64-linux";};
     esp32 = pkgs.dockerTools.pullImage {
       imageName = "espressif/idf-rust";
-      imageDigest = "sha256:40f2c1a184c4415518e40c158adac252ea107aa37df866a2d155a66ef27d8463";
-      sha256 = "Y8l8B73V+4neNaL3tk0cHkDYW4bWOgTjIRO2fD4Kacw=";
+      imageDigest = "sha256:751323a0feecd48201a3cfe74ef34f40eeb8cdd6c5b07034a6804ce6a859ba3b";
+      sha256 = "0jnkjczq9h6fmk7mmp10d3qd8902lzjn4l4sqlxnva6liiwkcm8c";
       finalImageName = "espressif/idf-rust";
       finalImageTag = "all_latest";
     };
